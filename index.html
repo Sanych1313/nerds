@@ -271,6 +271,30 @@
     </div>
   </footer><!--page-footer-->
 
+  <div class="popup">
+    <h2 class="popup__title">Напишите нам</h2>
+    <form action="https://echo.htmlacademy.ru" class="popup__form" metod="post">
+      <div class="popup__button-close"></div>
+
+      <div class="popup__item">
+        <label for="login-field" class="popup__label">Ваше имя:</label>
+        <input class="popup__name" id="login-field" type="text" name="login" placeholder="Имя Фамилия">
+      </div>
+
+      <div class="popup__item">
+        <label for="email-field" class="popup__label">Ваше имя:</label>
+        <input class="popup__email" id="email-field" type="email" name="email" placeholder="email@example.com">
+      </div>
+
+      <div  class="popup__item popup__item--text">
+        <label for="write-to-us" class="popup__label">Текст письма:</label>
+        <textarea class="popup__text" id="write-to-us" name="write-to-us" rows="6" placeholder="В свободной форме"></textarea>
+      </div>
+
+      <button class="popup__btn">Отправить</button>
+    </form>
+  </div><!--popup-->
+
   <svg display="none">
     <symbol id="header-logo" viewBox="0 0 160 67">
       <g>
