@@ -44,6 +44,91 @@
     </nav><!--main-menu-->
   </header><!--page-header-->
 
+  <div class="title">
+    <h2 class="title-text">Магазин готовых шаблонов</h2>
+  </div>
+
+  <section class="templates">
+    <div class="sort">
+      <span class="sort-title">Сортировать:</span>
+      <a href="#" class="sort-link sort-link--active">По цене</a>
+      <a href="#" class="sort-link">По типу</a>
+      <a href="#" class="sort-link">По названию</a>
+      <a href="#" class="sort-icon sort-icon-down sort-icon--active"></a>
+      <a href="#" class="sort-icon sort-icon-up"></a>
+    </div><!--sort-->
+
+    <form class="filter">
+      <div class="filter__range range">
+        <span class="range__title">Стоимость:</span>
+
+        <div class="range__slider">
+          <span class="range__line-grey"></span>
+          <span class="range__line-green"></span>
+          <span class="range__slide-first"></span>
+          <span class="range__slide-second"></span>
+        </div>
+
+        <div class="range__price">
+          <p class="range__start">От <span>0</span></p>
+          <p class="range__end">До <span>15000</span></p>
+        </div>
+      </div><!--range-->
+
+      <div class="filter__radio radio">
+        <span class="radio__title">Сетка:</span>
+
+        <input id="adaptive" type="radio" name="grid" value="adaptive" checked>
+        <label class="radio__lable" for="adaptive">Адаптивная</label>
+
+        <input id="fixed" type="radio" name="grid" value="fixed">
+        <label class="radio__label" for="fixed">Фиксированная</label>
+
+        <input id="rubber" type="radio" name="grid" value="rubber">
+        <label class="radio__label" for="rubber">Резиновая</label>
+      </div><!--radio-->
+
+      <div class="filter__checkbox checkbox">
+        <span class="checkbox__title">Особенности:</span>
+
+        <input id="slider" type="checkbox" name="slider" checked>
+        <label class="checkbox__label" for="slider">Слайдер</label>
+        
+        <input id="advantage" type="checkbox" name="advantage">
+        <label class="checkbox__label" for="advantage">Блок преимуществ</label>
+        
+        <input id="news" type="checkbox" name="news" checked>
+        <label class="checkbox__label" for="news">Новости</label>
+        
+        <input id="galery" type="checkbox" name="galery">
+        <label class="checkbox__label" for="galery">Галерея</label>
+        
+        <input id="basket" type="checkbox" name="basket">
+        <label class="checkbox__label" for="basket">Корзина</label>
+      </div><!--checkbox-->
+
+    </form><!--filter-->
+
+    <div class="catalog">
+      <div class="catalog__item">
+        
+      </div>
+
+      <div class="catalog__item"></div>
+
+      <div class="catalog__item"></div>
+    </div><!--catalog-->
+
+    <div class="pagination">
+      <ul class="pagination-list">
+        <li class="pagination-item">1</li>
+        <li class="pagination-item">2</li>
+        <li class="pagination-item">3</li>
+        <li class="pagination-item">Следующая</li>
+      </ul>
+    </div><!--pagination-->
+  </section><!--templates-->
+
   <div class="contacts">
     <img src="img/map.png" alt="Карта местонахождения компании Nerds" class="contacts-pic" width="1440" height="416">
 
